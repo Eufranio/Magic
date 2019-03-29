@@ -1,0 +1,18 @@
+body {
+  background-color: #191919;
+  color: #dfe3e6;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+img {
+  fill: white;
+}
+
+.bg-dark {
+  background: black !important;
+}
