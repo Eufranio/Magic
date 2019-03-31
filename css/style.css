@@ -43,3 +43,98 @@ img {
   background-attachment: fixed;
   background-position: center;
 }
+
+
+
+/* acresentado aparti daqui*/
+.modal {
+  color: black;
+}
+
+.cardList {
+  color: #000000;
+}
+
+.box-cartas {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  
+
+}
+
+.bg-cartas {
+  border-radius: 0;
+  background-color: #191919;
+  background-image: url(../img/background_cartas.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.image-width {
+  //width: 20%;
+  margin:5px;
+}
+
+.modal-image-width {
+  width: 100%;
+  height: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+footer {
+  border-top: 2px solid #252525;
+  padding: 30px 150px;
+  text-align: left;
+}
+
+a {
+  color: #dfe3e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #dfe3e6;
+}
+
+a:visited {
+  color: #dfe3e6;
+}
+
+@media only screen and (max-width: 720px){
+  .box-cartas, {
+    width: 100%;
+  }
+  .modal-image-width {
+  width: 60%;
+  height: 60%;
+  align: center;
+  }
+
+    footer {
+      //text-align: center;
+      padding: 30px 70px;
+    }
+
+    a {
+    color: #dfe3e6;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #dfe3e6;
+  }
+
+  a:visited {
+    color: #dfe3e6;
+  }
+}
