@@ -9,39 +9,114 @@
         <title>Home</title>
 
     </head>
-    <body>
+    <body id="home">
         
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark preto">
-        <a class="navbar-brand" href="home.html">
-            <img src="img/brandicon.svg" height="40" alt="" style="color: white;">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item  menu-iten active">
-                <a class="nav-link" href="home.html">HOME<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item menu-iten ">
-                <a class="nav-link" href="cartas.html">CARTAS</a>
-                </li>
-                <li class="nav-item menu-iten">
-                <a class="nav-link" href="sobre.html">SOBRE</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark preto">
+            <a class="navbar-brand" href="home.html">
+                <img src="img/brandicon.svg" height="40" alt="" style="color: white;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item  menu-iten active">
+                    <a class="nav-link" href="home.html">HOME<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item menu-iten ">
+                    <a class="nav-link" href="cartas.html">CARTAS</a>
+                    </li>
+                    <li class="nav-item menu-iten">
+                    <a class="nav-link" href="sobre.html">SOBRE</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="jumbotron bg-1">
+            <div class="container">
+                <div id="bg-container-top">
+                    <img src="img/logo.png" width="100%">
+                    <div id="box-cont-top" class="container">
+                        <p>Magic: the gathering é um jogo de cartas onde cada jogador deve montar um deck com 60 cartas. </p>
+                        <p>O objetivo do jogo é derrotar o seu inimigo em uma batalha de turnos.</p>
+                        <p>monte sua estrategia e vamos ao combate!</p>
+                    </div>
+                </div>
+            </div>    
         </div>
-    </nav>
-
-        <div class="jumbotron bg-1"></div>
-        <div class="jumbotron bg-2"></div>
-
-
-        <div class="container-fluid">
         
+        <div class="jumbotron bg-2">
+            <div class="container d-flex justify-content-centre">
+                <div id="galeria" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="img/amostra1.jpg" class="d-block w-100" alt="amostra1">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="img/amostra3.jpg" class="d-block w-100" alt="amostra3">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="img/amostra4.jpg" class="d-block w-100" alt="amostra4">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="img/amostra5.jpg" class="d-block w-100" alt="amostra5">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="img/amostra6.jpg" class="d-block w-100" alt="amostra6">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="img/amostra2.jpg" class="d-block w-100" alt="amostra2">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="img/amostra7.png" class="d-block w-100" alt="amostra7">
+                        </div>                                                                        
+                    </div>
+                    <a class="carousel-control-prev" href="#galeria" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#galeria" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <div id="box-vid" class="row d-flex justify-content-centre">
+                <div>
+                    <iframe width="500" height="280" src="https://www.youtube.com/embed/SjsCACaalKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+                    <div class="borda"></div>
+                </div>
+                
+                <div id="box-vid-cont" class="container">
+                    <img src="img/comeceJornada.png" width="90%">
+                    <div id="description">
+                        <p>Assuma o papel de um mago poderoso que coleta energia mágica da terra ao seu redor e usa esse mana para invocar criaturas poderosas!</p>
+                        <p> Criaturas aladas, que exalam fogo ou que matam tudo o que tocam e conjure mágicas devastadoras que destroem as criaturas do oponente, que fortalecem suas criaturas e até mesmo mágicas que viram o jogo ao seu favor.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <footer class="footer">
+                <!-- <h5 class="bold">Links Uteis</h5> -->
+            <div class="row justify-content-start">
+                <ul class= "col-sm-6">
+                <li><a href="https://magic.wizards.com/pt-br">Magic: The Gathering</a></li>
+                <li><a href="http://gatherer.wizards.com/Pages/Default.aspx">Magic Gatherer</a></li>
+                <li><a href="https://ligamagic.com.br/">LigaMagic</a></li>
+                </ul>
+                <ul class= "col-sm-6">
+                <li><a href="https://magicthegathering.io/">MTG Develop</a></li>
+                </ul>
+            </div>
+        </footer>
         
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <!-- <script src="js/script.js" charset="utf-8"></script> -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+         <script src="js/script.js" charset="utf-8"></script> -->
     </body>
 </html>
