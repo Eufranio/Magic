@@ -17,6 +17,10 @@ body {
   background: #000000 !important;
 }
 
+#home-footer {
+  margin: 0%;
+}
+
 ul {
   list-style: none;
   padding-left: 0;
@@ -42,7 +46,6 @@ img {
   background-image: url("../img/background_top.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: fixed;
   background-color: #000000;
   border-radius: 0%;
   position: relative;
@@ -52,74 +55,85 @@ img {
 }
 
 .bg-2 {
-  background-image: url("../img/background_mid.jpg");
-  background-size: 100%;
+  background-image: url("../img/background_mid1.jpg");
+  background-size: cover;
+  background-position:center center;
+  background-attachment: inherit;
   background-repeat: no-repeat;
   background-color: #000000;
   border-radius: 0%;
-  position: relative;
-  background-attachment: relative;
-  background-position: relative;
   margin: 0%;
   padding: 0%;
 }
 
 #bg-container-top {
-  background-color: #0000007e;
-  padding: 5%;
-  width: 50%;
-  margin-left: 55%;
-  margin-top: 27%;
-  margin-bottom: 10%;
+  background-color: #0000006e;
+  padding: 4%;
+  width: 100%;
+  margin: 10%;
+  margin-top: 20%;
+  margin-bottom: 0%;
 }
 
 #box-cont-top {
   margin: 0%;
-  margin-top: 10%;
+  margin-top: 5%;
   font-weight: bold;
   font-size: 100%;
   font-size-adjust: initial;
 }
 
 #galeria {
-  left: 10%;
+  left: 13%;
   width: 70%;
-  padding: 1%;
-  margin: 5%;
-  margin-top: 10%;
+  padding: 5%;
+  padding-top: 10%;
+  margin: 3%;
   align-self: center;
+}
 
+.carousel-control-prev-icon {
+  background-image: url("https://img.icons8.com/color/48/000000/chevron-left.png") !important;
+  margin-right: 50%;
+  width: 30px;
+  height: 30px;
+}
+ 
+.carousel-control-next-icon {
+  background-image: url("https://img.icons8.com/color/48/000000/chevron-right.png") !important;
+  margin-left: 50%;
+  width: 30px;
+  height: 30px;
 }
 
 #box-vid {
   padding: 5%;
   margin: 3%;
+  margin-bottom: 0%;
   margin-top: 0%;
   padding-top: 1%;
 }
 
 #box-vid-cont {
-  width: 50%;
-  margin: 7%;
-  margin-top: 1%;
+  width: 100%;
+  margin: 0%;
+  margin-top: 2%;
   font-size: 100%;
   text-align: center;
 }
 
 #description {
-  margin: 4%;
+  margin: 2%;
 }
 
 iframe {
-  padding: 5%;
+  padding: 2%;
   background:url("../img/bordaDeVideo.png");
-  background-size: 490px 270px; 
+  background-size: 100% 100%; 
   background-repeat: no-repeat;
   background-position: absolute;
   background-position-x: 50%;
   background-position-y: 50%;
-  
-  
 }
 
 
