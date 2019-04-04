@@ -68,8 +68,16 @@ img {
 
 #bg-container-top {
   background-color: #0000006e;
+<<<<<<< HEAD
   padding: 5%;
   
+=======
+  padding: 4%;
+  width: 100%;
+  margin: 10%;
+  margin-top: 20%;
+  margin-bottom: 0%;
+>>>>>>> cb747f9c1522351a5f9acbfcd61d97eb16b4476b
 }
 
 #box-cont-top {
