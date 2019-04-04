@@ -43,7 +43,7 @@ function showCard(jsonObj, id) {
   modalfade.setAttribute("aria-hidden", "true"); 
 
   let modaldialog = document.createElement('div');
-  modaldialog.className += "modal-dialog";
+  modaldialog.className += "modal-dialog modal-lg modal-dialog-centered";
   modaldialog.setAttribute("role", "document");
   
   let modalcontent = document.createElement("div");

@@ -34,13 +34,16 @@
         </nav>
 
         <div class="jumbotron bg-1">
-            <div class="container">
-                <div id="bg-container-top">
-                    <img src="img/logo.png" width="100%">
+            <div class=" d-flex justify-content-end m-10">
+                <div id="bg-container-top" class="col-sm w-1">
+                    <img src="img/logo.png" width="60%">
+                    <div>
+                        <img class="magic-xs-hide src="img/elementos.png">
+                    </div>
                     <div id="box-cont-top" class="container">
                         <p>Magic: the gathering é um jogo de cartas onde cada jogador deve montar um deck com 60 cartas. </p>
                         <p>O objetivo do jogo é derrotar o seu inimigo em uma batalha de turnos.</p>
-                        <p>monte sua estrategia e vamos ao combate!</p>
+                        <p>Monte sua estrategia e vamos ao combate!</p>
                     </div>
                 </div>
             </div>    
@@ -48,7 +51,7 @@
         
         <div class="jumbotron bg-2">
             <div class="container d-flex justify-content-centre">
-                <div id="galeria" class="carousel slide carousel-fade" data-ride="carousel">
+                <div id="galeria" class="carousel slide carousel-fade magic-xs-hide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                         <img src="img/amostra1.jpg" class="d-block w-100" alt="amostra1">
@@ -72,24 +75,24 @@
                         <img src="img/amostra7.png" class="d-block w-100" alt="amostra7">
                         </div>                                                                        
                     </div>
-                    <a class="carousel-control-prev" href="#galeria" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#galeria" role="button" data-slide="prev" data-keyboard = true>
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#galeria" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#galeria" role="button" data-slide="next" data-keyboard=true>
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
             </div>
 
-            <div id="box-vid" class="row d-flex justify-content-centre">
-                <div>
-                    <iframe width="500" height="280" src="https://www.youtube.com/embed/SjsCACaalKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+            <div id="box-vid" class="row d-flex justify-content-center">
+                <div class="col-sm-8 col-lg-6">
+                    <iframe class="yt-video" src="https://www.youtube.com/embed/SjsCACaalKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
                     <div class="borda"></div>
                 </div>
                 
-                <div id="box-vid-cont" class="container">
+                <div id="box-vid-cont" class="col-sm-6 col-lg-6 container">
                     <img src="img/comeceJornada.png" width="90%">
                     <div id="description">
                         <p>Assuma o papel de um mago poderoso que coleta energia mágica da terra ao seu redor e usa esse mana para invocar criaturas poderosas!</p>
@@ -98,9 +101,7 @@
                 </div>
             </div>
         </div>
-
-        <footer class="footer">
-                <!-- <h5 class="bold">Links Uteis</h5> -->
+        <footer id="home-footer" class="footer">
             <div class="row justify-content-start">
                 <ul class= "col-sm-6">
                 <li><a href="https://magic.wizards.com/pt-br">Magic: The Gathering</a></li>
